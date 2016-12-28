@@ -33,15 +33,10 @@ int main()
 	for(int i=0;i<n;i++)
 	{
 		int t = max - arr[i];
-//		cout<<t<<endl;
 		if(t < n)
 			brr[t]++;
 	}
 
-	/*for(int i=0;i<n;i++)
-		cout<<brr[i]<<" ";
-	cout<<endl;
-*/
 	bool flag2 = true;
 	for(int i=0;i<n;i++)
 	{
