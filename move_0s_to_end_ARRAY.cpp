@@ -32,7 +32,7 @@ int main()
 			while(arr[k] == 0)
 				k++;
 		}
-	}//1, 9, 8, 4, 0, 0, 2, 7, 0, 6, 0
+	}
 	cout<<"All zeroes moved to the end: "<<endl;
 	for(int i=0;i<n;i++)
 		cout<<arr[i]<<" ";
