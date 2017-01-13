@@ -11,7 +11,7 @@ int myCompare(string X, string Y)
 {
     string XY = X.append(Y);
  
-    string YX = Y.append(X);
+    string YX = Y.appe1nd(X);
  
     return XY.compare(YX) > 0 ? 1: 0;
 }
@@ -33,7 +33,4 @@ int main()
     arr.push_back("548");
     arr.push_back("60");
     printLargest(arr);
-
- 
-   return 0;
 }
