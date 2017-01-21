@@ -42,13 +42,13 @@ int main()
 	}// 10, 3, 5, 6, 20
 	 //-10, -3, -5, -6, -20
 	 //1, -4, 3, -6, 7, 0
-
+	
 	int pos = first*second*third;
 	int negpos = third*negfirst*negsecond;
-
+	
 	if(pos > negpos)
 		cout<<pos<<endl;
 	else
 		cout<<negpos<<endl;
-
+	
 }
