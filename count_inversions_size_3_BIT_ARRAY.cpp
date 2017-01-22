@@ -1,7 +1,6 @@
 #include<iostream>
 #include<stdio.h>
 #include<stdlib.h>
-
 using namespace std;
 
 int getsum(int bit[], int index)
@@ -34,13 +33,11 @@ int main()
 		cin>>arr[i];
 
 	int max = arr[0];
-
 	for(int i=1;i<n;i++)
 	{
 		if(arr[i] > max)
 			max = arr[i];
 	}
-
 	int BIT[max+1];
 	for (int i=0; i<=max; i++)
     	BIT[i] = 0;
@@ -55,6 +52,5 @@ int main()
 		}
 		updateBIT(BIT, max, arr[i], 1);
 	} //8, 4, 2, 1
-
 	cout<<count<<endl;
 }
