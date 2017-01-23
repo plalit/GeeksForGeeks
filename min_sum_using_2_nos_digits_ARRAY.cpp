@@ -27,7 +27,6 @@ int main()
 		num2 = num2*10 + arr[i];
 		i++;
 	}
-
 	cout<<num1 + num2<<endl;
 	// 6, 8, 4, 5, 2, 3
 	// 5, 3, 0, 7, 4
