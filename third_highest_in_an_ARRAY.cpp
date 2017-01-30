@@ -30,7 +30,7 @@ int main()
 			second = arr[i];
 		}
 		else if(arr[i] > first)
-			first = arr[i];
+			first = arr[i];n
 	} // 19, -10, 20, 14, 2, 16, 10
 	cout<<first<<endl;
 }
